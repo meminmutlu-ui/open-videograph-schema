@@ -3,48 +3,45 @@
   "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/camera.json",
   "title": "VideoGraph Camera Movement & Angle Schema",
   "description": "Schema for shot-level optical flow camera movement, camera angle, and framing scale.",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "required": [
-      "shot_id",
-      "start",
-      "end",
-      "movement",
-      "camera_angle",
-      "shot_scale"
-    ],
-    "properties": {
-      "shot_id": {
-        "type": "string"
-      },
-      "start": {
-        "type": "number"
-      },
-      "end": {
-        "type": "number"
-      },
-      "duration": {
-        "type": "number"
-      },
-      "motion_score": {
-        "type": "number"
-      },
-      "movement": {
-        "type": "string",
-        "example": "Pan Left / Static"
-      },
-      "camera_angle": {
-        "type": "string",
-        "example": "Eye Level"
-      },
-      "shot_scale": {
-        "type": "string",
-        "example": "Medium Shot"
-      },
-      "thumbnail": {
-        "type": "string"
-      }
+  "type": "object",
+  "required": [
+    "shot_id",
+    "start",
+    "end",
+    "movement",
+    "camera_angle",
+    "shot_scale"
+  ],
+  "properties": {
+    "shot_id": {
+      "type": "string"
+    },
+    "start": {
+      "type": "number"
+    },
+    "end": {
+      "type": "number"
+    },
+    "duration": {
+      "type": "number"
+    },
+    "motion_score": {
+      "type": "number"
+    },
+    "movement": {
+      "type": "string",
+      "example": "Pan Left / Static"
+    },
+    "camera_angle": {
+      "type": "string",
+      "example": "Eye Level"
+    },
+    "shot_scale": {
+      "type": "string",
+      "example": "Medium Shot"
+    },
+    "thumbnail": {
+      "type": "string"
     }
   }
 }

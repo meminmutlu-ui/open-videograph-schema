@@ -45,7 +45,11 @@
       "type": "number"
     },
     "sentiment": {
-      "type": "string"
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
     },
     "summary": {
       "type": "string"

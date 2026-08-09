@@ -21,11 +21,25 @@
       "description": "Original video filename"
     },
     "appLicense": {
-      "type": "string",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ],
       "description": "Software license statement (MIT)"
     },
     "mediaLicense": {
-      "type": "string",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ],
       "description": "Media ownership and schema architecture notice"
     },
     "graphData": {
