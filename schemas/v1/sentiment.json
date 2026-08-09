@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/sentiment.json",
+  "title": "VideoGraph Sentiment & Emotional Curve Schema",
+  "description": "Schema for scene-level emotional valence, character mood scores, and audio tone analysis.",
+  "type": "object",
+  "required": [
+    "scenes",
+    "characters",
+    "dialogues"
+  ],
+  "properties": {
+    "scenes": {
+      "type": "array",
+      "description": "Per-scene emotional tone and sentiment scores"
+    },
+    "characters": {
+      "type": "array",
+      "description": "Character emotional arc progression"
+    },
+    "dialogues": {
+      "type": "array",
+      "description": "Per-dialogue sentiment polarity"
+    }
+  }
+}

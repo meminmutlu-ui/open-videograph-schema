@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/semantic.json",
+  "title": "VideoGraph Semantic Search Schema",
+  "description": "Schema for 7 Golden Fields semantic scene indexing and vector search metadata.",
+  "type": "object",
+  "required": [
+    "scene_id",
+    "timestamp",
+    "place",
+    "characters",
+    "scene_description",
+    "emotional_tone",
+    "narrative_function"
+  ],
+  "properties": {
+    "scene_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "array"
+    },
+    "scene_description": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "emotional_tone": {
+      "type": "string"
+    },
+    "narrative_function": {
+      "type": "string"
+    },
+    "dialogue_themes": {
+      "type": "array"
+    },
+    "relationship_dynamics": {
+      "type": "string"
+    }
+  }
+}

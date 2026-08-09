@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/visual_tone.json",
+  "title": "VideoGraph Visual Tone & Color Palette Schema",
+  "description": "Schema for scene brightness, contrast, color palette extraction, and visual mood.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "scene_id",
+      "start",
+      "end",
+      "brightness",
+      "palette"
+    ],
+    "properties": {
+      "scene_id": {
+        "type": "string"
+      },
+      "label": {
+        "type": "string"
+      },
+      "start": {
+        "type": "number"
+      },
+      "end": {
+        "type": "number"
+      },
+      "brightness": {
+        "type": "number"
+      },
+      "palette": {
+        "type": "array",
+        "description": "HEX color codes"
+      },
+      "thumbnail": {
+        "type": "string"
+      }
+    }
+  }
+}

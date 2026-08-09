@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/topic.json",
+  "title": "VideoGraph Topic Modeling Schema",
+  "description": "Schema for multi-granularity (3, 5, 7, 10) LDA/LLM topic distributions across scenes.",
+  "type": "object",
+  "required": [
+    "3",
+    "5",
+    "7",
+    "10"
+  ],
+  "properties": {
+    "3": {
+      "type": "object",
+      "description": "3-topic model distribution"
+    },
+    "5": {
+      "type": "object",
+      "description": "5-topic model distribution"
+    },
+    "7": {
+      "type": "object",
+      "description": "7-topic model distribution"
+    },
+    "10": {
+      "type": "object",
+      "description": "10-topic model distribution"
+    }
+  }
+}

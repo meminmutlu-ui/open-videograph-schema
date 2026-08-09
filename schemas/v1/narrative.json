@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/narrative.json",
+  "title": "VideoGraph Narrative LightRAG Knowledge Graph Schema",
+  "description": "Schema for entity-relationship Knowledge Graph nodes, links, and global film summary report.",
+  "type": "object",
+  "required": [
+    "nodes",
+    "links",
+    "film_identity_report"
+  ],
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "description": "Knowledge Graph entity nodes (person, location, concept)"
+    },
+    "links": {
+      "type": "array",
+      "description": "Entity relationships"
+    },
+    "film_identity_report": {
+      "type": "string",
+      "description": "Global Film Identity Summary"
+    }
+  }
+}

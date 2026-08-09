@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/shot.json",
+  "title": "VideoGraph Shot Boundary & Tag Schema",
+  "description": "Schema for camera shot boundaries, frame thumbnails, and Places365/CLIP visual tags.",
+  "type": "object",
+  "required": [
+    "id",
+    "start",
+    "end",
+    "duration",
+    "thumbnail"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "example": "shot_0000"
+    },
+    "start": {
+      "type": "number",
+      "minimum": 0
+    },
+    "end": {
+      "type": "number",
+      "minimum": 0
+    },
+    "duration": {
+      "type": "number",
+      "minimum": 0
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "clip_tags": {
+      "type": "object",
+      "description": "Places365 environment, mood, and lighting tags"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/transcript.json",
+  "title": "VideoGraph Transcript & Dialogue Schema",
+  "description": "Schema for timestamped spoken dialogues and diarized speaker assignments.",
+  "type": "object",
+  "required": [
+    "start",
+    "end",
+    "text",
+    "speaker"
+  ],
+  "properties": {
+    "start": {
+      "type": "number",
+      "minimum": 0
+    },
+    "end": {
+      "type": "number",
+      "minimum": 0
+    },
+    "text": {
+      "type": "string",
+      "description": "Spoken dialogue sentence"
+    },
+    "speaker": {
+      "type": "string",
+      "example": "SPEAKER_00"
+    },
+    "words": {
+      "type": "array",
+      "description": "Word-level timestamp alignments"
+    }
+  }
+}

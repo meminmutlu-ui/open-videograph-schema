@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/scene.json",
+  "title": "VideoGraph Scene Schema",
+  "description": "Schema for scene segmentation boundaries, thumbnails, and 7 Golden Fields narrative metadata.",
+  "type": "object",
+  "required": [
+    "id",
+    "start",
+    "end",
+    "description",
+    "thumbnail",
+    "shots"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "example": "scene_v5_0000"
+    },
+    "start": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Start timestamp in seconds"
+    },
+    "end": {
+      "type": "number",
+      "minimum": 0,
+      "description": "End timestamp in seconds"
+    },
+    "description": {
+      "type": "string",
+      "description": "Narrative summary and scene description"
+    },
+    "thumbnail": {
+      "type": "string",
+      "description": "Relative thumbnail image path"
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Contained shot IDs"
+    }
+  }
+}

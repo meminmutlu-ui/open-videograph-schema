@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/dialogue_flow.json",
+  "title": "VideoGraph Dialogue Flow Tree Schema",
+  "description": "Schema for speaker turn transition network, speaker nodes, and dialogue flow edges.",
+  "type": "object",
+  "required": [
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "description": "Speaker identity nodes"
+    },
+    "edges": {
+      "type": "array",
+      "description": "Speaker transition directional edges"
+    }
+  }
+}

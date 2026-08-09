@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/manifest.json",
+  "title": "VideoGraph Export Manifest Schema",
+  "description": "Schema for root metadata, licenses, and character-scene bipartite network container (data.js).",
+  "type": "object",
+  "required": [
+    "videoName",
+    "videoFileName",
+    "appLicense",
+    "mediaLicense",
+    "graphData"
+  ],
+  "properties": {
+    "videoName": {
+      "type": "string",
+      "description": "Unique video project identifier"
+    },
+    "videoFileName": {
+      "type": "string",
+      "description": "Original video filename"
+    },
+    "appLicense": {
+      "type": "string",
+      "description": "Software license statement (MIT)"
+    },
+    "mediaLicense": {
+      "type": "string",
+      "description": "Media ownership and schema architecture notice"
+    },
+    "graphData": {
+      "type": "object",
+      "required": [
+        "nodes",
+        "edges"
+      ],
+      "properties": {
+        "nodes": {
+          "type": "array",
+          "description": "Bipartite graph character and scene nodes"
+        },
+        "edges": {
+          "type": "array",
+          "description": "Bipartite graph co-occurrence edges"
+        }
+      }
+    }
+  }
+}

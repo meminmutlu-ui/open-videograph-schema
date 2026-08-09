@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/character.json",
+  "title": "VideoGraph Character Schema",
+  "description": "Schema for character identity, avatar, and scene appearance timestamps.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "avatar",
+    "appearances"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "example": "char_0"
+    },
+    "name": {
+      "type": "string",
+      "example": "Edward"
+    },
+    "avatar": {
+      "type": "string",
+      "description": "Character face avatar image path"
+    },
+    "appearances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "time"
+        ],
+        "properties": {
+          "time": {
+            "type": "number",
+            "description": "Timestamp in seconds"
+          }
+        }
+      }
+    },
+    "hidden": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

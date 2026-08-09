@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/audio.json",
+  "title": "VideoGraph Audio & Music Spectrum Schema",
+  "description": "Schema for audio energy, music presence, silence mapping, and musical motifs.",
+  "type": "object",
+  "required": [
+    "overall",
+    "shots",
+    "music_info",
+    "silence_map"
+  ],
+  "properties": {
+    "overall": {
+      "type": "object"
+    },
+    "shots": {
+      "type": "array"
+    },
+    "music_info": {
+      "type": "object"
+    },
+    "silence_map": {
+      "type": "array"
+    },
+    "motifs": {
+      "type": "array"
+    }
+  }
+}

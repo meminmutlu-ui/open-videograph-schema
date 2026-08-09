@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meminmutlu-ui.github.io/open-videograph-schema/schemas/v1/sequence.json",
+  "title": "VideoGraph Sequence & Dramatic Act Schema",
+  "description": "Schema for dramatic act segmentation, tension curve, and sequence summaries.",
+  "type": "object",
+  "required": [
+    "id",
+    "label",
+    "start",
+    "end",
+    "duration",
+    "type",
+    "scene_count"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "start": {
+      "type": "number"
+    },
+    "end": {
+      "type": "number"
+    },
+    "duration": {
+      "type": "number"
+    },
+    "type": {
+      "type": "string"
+    },
+    "scene_count": {
+      "type": "integer"
+    },
+    "brightness": {
+      "type": "number"
+    },
+    "contrast": {
+      "type": "number"
+    },
+    "tension": {
+      "type": "number"
+    },
+    "sentiment": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}
