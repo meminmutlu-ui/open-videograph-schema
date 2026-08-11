@@ -5,7 +5,7 @@
 
 Welcome to the official **Open VideoGraph Schema Registry**.
 
-This repository contains the JSON Schema (Draft 2020-12) specifications for all 13 analytical matrices and root manifest container of the **VideoGraph** and **Video Intelligence Studio** narrative video analytics suite.
+This repository contains the JSON Schema (Draft 2020-12) specifications for all 13 analytical data module specifications and root manifest container of the **VideoGraph** and **Video Intelligence Studio** narrative video analytics suite.
 
 ---
 
@@ -55,7 +55,7 @@ print("Valid VideoGraph Scene Dataset!")
 
 ## 🔒 System Scope & Boundaries
 
-- **Open VideoGraph Specification**: Covers public data schemas, 13 analytical matrix specifications, and standalone viewer web application (Licensed under MIT & CC BY 4.0).
+- **Open VideoGraph Specification**: Covers public data schemas, 13 analytical data module specifications, and standalone viewer web application (Licensed under MIT & CC BY 4.0).
 - **Video Intelligence Studio (Core & Admin Dashboard)**: The core backend processing engine, AI pipeline models, Admin Management Dashboard (`admin.html`), and server administration tools are **proprietary software (Copyright (c) 2026 Mehmet Emin Mutlu - All Rights Reserved)** and are strictly excluded from this public specification repository.
 
 ---
@@ -63,7 +63,7 @@ print("Valid VideoGraph Scene Dataset!")
 ## 🛡️ License & Notice
 
 > **Schema, Ontology & System Architecture Notice**:  
-> The VideoGraph data structure, graph ontology (character-scene bipartite networks, character co-occurrence graphs, scene transition topologies), and 13 analytical matrices are designed and published by **Dr. Mehmet Emin Mutlu** (Anadolu University, Eskisehir, Turkey | Email: `memutlu@anadolu.edu.tr`) under the **Open VideoGraph Data Standard Specification**.
+> The VideoGraph data structure, graph ontology (character-scene bipartite networks, character co-occurrence graphs, scene transition topologies), and 13 analytical data module specifications are designed and published by **Dr. Mehmet Emin Mutlu** (Anadolu University, Eskisehir, Turkey | Email: `memutlu@anadolu.edu.tr`) under the **Open VideoGraph Data Standard Specification**.
 
 - **Author & Architecture Citation**: Dr. Mehmet Emin Mutlu (`meminmutlu-ui`)
 - **Institution**: Anadolu University, Eskisehir, Turkey
