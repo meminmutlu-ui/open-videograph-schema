@@ -93,4 +93,4 @@ If you use Open VideoGraph Schema in your research or software, please cite it a
 ---
 
 APA 7th Edition:
-Mutlu, M. E. (2026). Open VideoGraph Schema v1.0.0 [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21888981
+Mutlu, M. E. (2026). Open VideoGraph Schema v1.0.0 [Standart]. Zenodo. https://doi.org/10.5281/zenodo.21888981
