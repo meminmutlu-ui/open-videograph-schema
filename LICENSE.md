@@ -8,7 +8,7 @@
 
 ## 1. Open Data Standard & Schema Ontology License (CC BY 4.0)
 
-The VideoGraph data structure specifications, JSON schemas (Draft 2020-12), graph ontology (character-scene bipartite networks, character co-occurrence matrices, scene transition topologies), and 13 analytical matrix specifications in this repository are created by **Dr. Mehmet Emin Mutlu** (Anadolu University, Eskisehir, Turkey | Email: `memutlu@anadolu.edu.tr`) and licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+The VideoGraph data structure specifications, JSON schemas (Draft 2020-12), graph ontology (character-scene bipartite networks, character co-occurrence matrices, scene transition topologies), and 13 analytical data module specifications in this repository are created by **Dr. Mehmet Emin Mutlu** (Anadolu University, Eskisehir, Turkey | Email: `memutlu@anadolu.edu.tr`) and licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 To view a copy of this license, visit:  
 https://creativecommons.org/licenses/by/4.0/
