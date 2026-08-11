@@ -1,24 +1,12 @@
 cff-version: 1.2.0
-title: "Open VideoGraph Schema: Multimodal Video Analytics & Knowledge Graph JSON Specification"
+title: "Open VideoGraph Schema: Multimodal Video Analytics and Knowledge Graph JSON Specification"
 message: "If you use this schema specification in your research, please cite it as below."
-type: dataset
 authors:
   - family-names: "Mutlu"
     given-names: "Mehmet Emin"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-    affiliation: "Anadolu University, Department of Computer Education and Instructional Technology, Eskisehir, Turkey"
+    affiliation: "Anadolu University"
     email: "memutlu@anadolu.edu.tr"
-repository-code: "https://github.com/meminmutlu-ui/open-videograph-schema"
-url: "https://meminmutlu-ui.github.io/open-videograph-schema/"
-abstract: "Open VideoGraph Schema is an open-source JSON Schema specification designed to structure multimodal video analytics, shot/scene segmentation, character identification, emotional valence curves, topic modeling, and LightRAG Knowledge Graphs into interoperable, verifiable data artifacts."
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-08-11"
+repository-code: "https://github.com/meminmutlu-ui/open-videograph-schema"
 license: "MIT"
-keywords:
-  - "video analytics"
-  - "knowledge graph"
-  - "json schema"
-  - "multimodal data"
-  - "narrative structure"
-  - "scene segmentation"
-  - "lightrag"
