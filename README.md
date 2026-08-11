@@ -1,5 +1,8 @@
 # Open VideoGraph Data Standard & Ontology Schema (v1.0.0)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21888981.svg)](https://doi.org/10.5281/zenodo.21888981)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Welcome to the official **Open VideoGraph Schema Registry**.
 
 This repository contains the JSON Schema (Draft 2020-12) specifications for all 13 analytical matrices and root manifest container of the **VideoGraph** and **Video Intelligence Studio** narrative video analytics suite.
@@ -68,3 +71,28 @@ print("Valid VideoGraph Scene Dataset!")
 - **VideoGraph Standalone Export Player**: MIT License (Open Source)
 - **Open VideoGraph Data Standard & Schemas**: Creative Commons Attribution 4.0 International (CC BY 4.0)
 - **Video Intelligence Studio Core System**: Proprietary Suite (Copyright (c) 2026 Mehmet Emin Mutlu - All Rights Reserved)
+
+---
+
+---
+
+## 🎓 How to Cite
+
+If you use Open VideoGraph Schema in your research or software, please cite it as:
+
+```bibtex
+@dataset{mutlu2026videograph,
+  author       = {Mutlu, Mehmet Emin},
+  title        = {Open VideoGraph Schema v1.0.0},
+  month        = aug,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.21888981},
+  url          = {https://doi.org/10.5281/zenodo.21888981}
+}
+
+---
+
+APA 7th Edition:
+Mutlu, M. E. (2026). Open VideoGraph Schema v1.0.0 [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21888981
