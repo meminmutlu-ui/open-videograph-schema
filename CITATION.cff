@@ -6,7 +6,7 @@ authors:
     given-names: "Mehmet Emin"
     affiliation: "Anadolu University"
     email: "memutlu@anadolu.edu.tr"
-version: "1.0.1"
+version: "1.0.0"
 date-released: "2026-08-11"
 repository-code: "https://github.com/meminmutlu-ui/open-videograph-schema"
 license: "MIT"
