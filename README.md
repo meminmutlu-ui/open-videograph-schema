@@ -74,8 +74,6 @@ print("Valid VideoGraph Scene Dataset!")
 
 ---
 
----
-
 ## 🎓 How to Cite
 
 If you use Open VideoGraph Schema in your research or software, please cite it as:
